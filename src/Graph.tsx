@@ -57,7 +57,7 @@ class Graph extends Component<IProps, {}> {
               "top_ask_price":"avg" ,
               "top_bid_price":"avg" ,
               "timestamp":"distinct count"}`); //allows us to handle duplicated data, by consolidating it into a single data point
-      // Add more Perspective configurations here.
+      // Add more Perspective configurations here
       elem.load(this.table);
     }
   }

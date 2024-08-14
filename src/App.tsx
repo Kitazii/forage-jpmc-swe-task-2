@@ -62,7 +62,7 @@ class App extends Component<{}, IState> {
         if (x > 1000) {
             clearInterval(interval); //if so clear the interval to stop further executions
         }
-      }, 100) //interval set to run every 100 milliseconds
+      }, 100) //interval set to run every 100 millisecond
   }
 
   /**
